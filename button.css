@@ -1,0 +1,19 @@
+.rec {
+    font-size: 1em;
+    border: 4px solid var(--primary-color);
+    padding: 1em 2.5em;
+    background: #fff;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rec--small {
+    font-size: 0.8em;
+}
+
+.rec--big {
+    font-size: 1.3em
+}

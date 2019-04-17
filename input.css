@@ -1,0 +1,15 @@
+.form {
+    width: 300px
+}
+
+.input {
+    font-size: 1.1em;
+    background: #fff;
+    width: 100%;
+    padding: 0.8em 1.6em;
+    border: 4px solid var(--primary-color);
+}
+
+.input::placeholder {
+    color: var(--secondary-color)
+}

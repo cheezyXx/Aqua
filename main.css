@@ -1,0 +1,26 @@
+:root {
+    box-sizing: border-box;
+    --primary-color: #5492E7;;
+    --secondary-color: #4568C2;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    font-family: 'Inconsolata', 'Helvetica', 'Arial', sans-serif;
+    background-color: #f7fbfc;
+}
+
+.ctx {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ctx * + * {
+    margin-left: 1em;
+}

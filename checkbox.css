@@ -1,0 +1,75 @@
+.chx {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    height: 1em;
+    width: 1em;
+    font-size: 30px;
+    border: 4px solid var(--primary-color);
+}
+
+.chx input:checked ~ .chx__mark::after,
+.chx input:checked ~ .chx__mark-rounded::after {
+    display: block
+}
+
+.chx > input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.chx__mark,
+.chx__mark-rounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+
+.chx__mark::after,
+.chx__mark-rounded::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.chx__mark::after {
+    width: 0.2em;
+    height: 0.6em;
+    border: solid var(--secondary-color);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.chx--small {
+    font-size: 25px;
+}
+
+.chx--big {
+    font-size: 35px;
+}
+
+.chx--rounded {
+    border-radius: 50%;
+}
+
+.chx__mark-rounded {
+    border-radius: 50%;
+}
+
+.chx__mark-rounded::after {
+    border-radius: 50%;
+    width: 0.3em;
+    height: 0.3em;
+    background-color: var(--secondary-color);
+}
