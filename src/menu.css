@@ -1,0 +1,19 @@
+.nav {
+    list-style-type: none;
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.nav > li + li {
+    margin-left: 1.5em;
+}
+
+.nav > li > a {
+    display: block;
+    padding: .5em 1em;
+    color: white;
+    text-decoration: none;
+    background-color: var(--primary-color);
+}
