@@ -1,11 +1,21 @@
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    padding: 1em;
+    height: 100vh;
 }
 
 .table {
     width: 100%;
     border-collapse: collapse;
     position: relative;
+    overflow: hidden;
+}
+
+.table__header,
+.table__body tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
 }
 
 .table--zebra .table__body tr:nth-child(even) {
@@ -50,8 +60,8 @@
 /* table body */
 
 .table__body {
-    overflow: auto;
-    height: 200px;
+    display: block;
+    overflow-y: auto;
 }
 
 .table__body tr {

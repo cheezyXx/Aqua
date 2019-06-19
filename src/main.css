@@ -14,6 +14,8 @@ html,
 body {
     font-family: 'Inconsolata', 'Helvetica', 'Arial', sans-serif;
     background-color: #f7fbfc;
+    margin: 0;
+    padding: 0;
 }
 
 .ctx {
