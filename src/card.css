@@ -1,0 +1,31 @@
+.card {
+    box-shadow: 0 0 3px #eee;
+    background-color: #fff;
+    padding: 1em 2em;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card--small {
+    width: 300px;
+    height: 150px;
+}
+
+.card--big {
+    width: 400px;
+    height: 250px;
+}
+
+.card--long {
+    width: 100%;
+    height: auto;
+}
+
+.card__header {
+    margin-bottom: 0.5em;
+}
+
+.card__content {
+
+}
