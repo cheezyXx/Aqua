@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/main.css">
+    <link rel="stylesheet" href="../src/card.css">
+    <style>
+        .container {
+            display: flex;
+            padding: 1em;
+            flex-wrap: wrap;
+        }
+
+        .container > div + div {
+            margin-left: 1em;
+        }
+
+        .wrapper {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card card--small">
+        <div class="card__header">
+            <div>This is cool header</div>
+        </div>
+        <div class="card__content">
+            <div>Some content</div>
+            <img src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn" alt="Some image" height="60">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__header">
+            <div>This is cool header</div>
+        </div>
+        <div class="card__content">
+            <div>Some content</div>
+            <img src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn" alt="Some image" height="100">
+        </div>
+    </div>
+
+    <div class="card card--big">
+        <div class="card__header">
+            <div>This is cool header</div>
+        </div>
+        <div class="card__content">
+            <div>Some content</div>
+            <img src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn" alt="Some image" height="150">
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="card card--long">
+            <div class="card__header">
+                <div>This is cool header</div>
+            </div>
+            <div class="card__content">
+                <div>Some content</div>
+                <img src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn" alt="Some image" height="150">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
