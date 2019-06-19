@@ -7,3 +7,5 @@
 * Input
 * Textarea
 * Navigation
+* Card
+* Table
