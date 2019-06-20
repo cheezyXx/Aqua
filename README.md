@@ -9,3 +9,4 @@
 * Navigation
 * Card
 * Table
+* Pagination
