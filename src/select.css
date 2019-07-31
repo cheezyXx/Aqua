@@ -1,0 +1,36 @@
+.wrapper {
+    width: 300px;
+}
+
+.select {
+    width: 100%;
+}
+
+.select ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.options {
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.option {
+    padding: 1em;
+    cursor: pointer;
+}
+
+.options.hidden {
+    display: none;
+}
+
+.options .option:hover {
+    background-color: #696969;
+    color: #fff;
+}
+
+.selected {
+    border: 1px solid #eee;
+    background-color: #fff;
+}
