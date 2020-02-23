@@ -26,3 +26,7 @@ body {
 .ctx * + * {
     margin-left: 1em;
 }
+
+.container {
+    padding: 1em;
+}
